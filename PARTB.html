@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Reservation System</title>
+    <style>
+        * {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+
+        header, button {
+            background-color: #3498db;
+            padding: 10px;
+            text-align: center;
+        }
+
+        button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: #e74c3c;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        nav {
+            background-color: #f0f0f0;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .col {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        a {
+            padding: 10px;
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Train Reservation System</h1>
+        <button>Book Now</button>
+    </header>
+    <nav>
+        <p>
+            <a href="#">Domestic Trains</a> |
+            <a href="#">International Trains</a> |
+            <a href="#">High-Speed Trains</a>
+        </p>
+    </nav>
+    <div class="container">
+        <div class="col">
+            <h2>Domestic Trains</h2>
+            <p>Explore and book tickets for domestic train routes.</p>
+            <a href="#">Book Now</a>
+        </div>
+        <div class="col">
+            <h2>International Trains</h2>
+            <p>Discover international train routes and book your journey.</p>
+            <a href="#">Book Now</a>
+        </div>
+        <div class="col">
+            <h2>High-Speed Trains</h2>
+            <p>Experience high-speed train travel and reserve your seats.</p>
+            <a href="#">Book Now</a>
+        </div>
+    </div>
+</body>
+
+</html>
